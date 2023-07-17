@@ -1,7 +1,10 @@
+import Navbar from "../components/Shared/Navbar/Navbar"
+
 const Main = () => {
   return (
     <div>
-      <h1>Welcome TO AirCNC</h1>
+      <Navbar></Navbar>
+      {/* 53m */}
     </div>
   )
 }
